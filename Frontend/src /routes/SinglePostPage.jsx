@@ -1,15 +1,3 @@
-/*
-  2 week task 
-  week1: say as we are using the react-router-dom to make diffrent routes(pages) you made this page to shocase
-         indivisual posts and their descriptions, mention following the UI design you made the base design(using react and tailwind)
-         and say "@tanstack/react-query"(refference : https://tanstack.com/query/latest/docs/framework/react/reference/useQuery)
-         to handel the function to fetch specific post information when clicked on a post(say you used the official documentation above)
-
-  week2: This week is all about imports, say you imported 'Search' made by 'Abre' and 'Comments' component made by
-         'Anish'(its important you mention names(you get more marks this way) ). Then you using Tailwind you properly
-         showcase their components in your page.   
-*/
-
 import { Link, useParams } from "react-router-dom";
 import Image from "../components/Image";
 import PostMenuActions from "../components/PostMenuActions";
