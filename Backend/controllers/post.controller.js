@@ -1,30 +1,3 @@
-/*
-  This is a 2 week task because you are making post.model.js in week3(sp2):
-
-    Week 2: Focused on API structure, authentication, and request handling:
-         During the first week, we focused on setting up the foundational aspects of our backend, including defining routes and controllers 
-         for handling user authentication, post creation, comment management, and webhook integration with Clerk for user data synchronization. 
-         We structured API endpoints using Express, implementing key functionalities such as retrieving posts, creating and deleting posts, and managing comments. 
-         Additionally, we integrated middleware for increasing post views and verifying Clerk webhooks to ensure seamless user account handling.
-        
-
-    week 3: integrate the database and enable full CRUD functionality.
-         In the second week, our primary focus will be on implementing `post posts, including fields like title, content, category, 
-         and user references. This model will enable us to handle operations like saving, updating, and deleting posts, as well as implementing features 
-         like post visibility and managing image uploads through ImageKit. We will also focus on integrating the model into the existing routes and controllers 
-         to ensure smooth interaction with the database. By the end of Week 2, we aim to complete the full post management system, allowing us to effectively manage 
-         posts and their associated metadata within our application.
-  
-    
-    
-  • Genaral idea of whole code:  Here we handel every function related to posts. Who can make/delete a post(reference: clerk authentication )
-            what details we fetch from our user when they are making the post(email, username, texts, profile-pic (allredy saved in our database when they made their acount))
-            what happens when they delete the post, or if someone else try to delete theie post('not authenticated).
-            Post filters , when we try to sort all the posts(popular, recent, old...)
-            and some trouble shooting code.
-*/
-
-
 import ImageKit from "imagekit";
 import Post from "../models/post.model.js"; //-------------
 import User from "../models/user.model.js";
