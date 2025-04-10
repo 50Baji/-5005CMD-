@@ -1,14 +1,3 @@
-
-/*
-  Only explain why the section is needed in the web page, and a small breaf off the code(you can paste some parts of 
-    code in report, like the imports and a few line following that).
-  Mention you used 'TailwindCss', and the catagories 'Story,Discussion...' were decided in the weakly scrum meating
-
-It is nesesury that you mention the scrum-masters name of each week(say i was asigned this task by 
-    'Name' of that weeks scrum master)  
-  */
-
-
 import { Link } from "react-router-dom";
 import Search from "./Search";
 
