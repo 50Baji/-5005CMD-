@@ -1,10 +1,3 @@
-/*
-  Joint task(asvin , cian): Week1 so, say Asvin helped cian, as he had previous experience with react,
-        both mention eachothers name and explain why this code was needed(these are the single post and
-          small description that showes up in the home page.
-   • This is cians main task, ashvin helped out because he needs this component in his other task that week 
-     PostListPage.jsx       
-*/
 
 import { Link } from "react-router-dom";
 import Image from "./Image";
