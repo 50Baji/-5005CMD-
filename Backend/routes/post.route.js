@@ -1,8 +1,3 @@
-/*
-  Made all the routes for all diffrent type of posts to make fetching and saving data in database
-  easy and efficiant.(routes: things we put after links- anime.com/solo-lvling , /solo-lvling is a route)
-*/
-
 import express from "express";
 import {
   getPosts,
