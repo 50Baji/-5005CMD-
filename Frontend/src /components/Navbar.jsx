@@ -1,14 +1,3 @@
-
-/*
-  Only explain why the section is needed in the web page, and a small breaf off the code(only paste 'DESKTOP MENU' in report and provide the github link to file).
-  Mention you used 'TailwindCss'.
-  Mention you only made the 'Desktop-Navbar', The mobile navbar will be made by 'Anish' next week.
-  Slightly mention these deseation  to split the Navbar task into 2 parts was discused in the scrum meating(mention in the weekly reflection)
-
-It is nesesury that you mention the scrum-masters name of each week(say i was asigned this task by 
-    'Name' of that weeks scrum master)  
-  */
-
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { SignedIn, SignedOut, UserButton, useUser, useAuth } from "@clerk/clerk-react";
