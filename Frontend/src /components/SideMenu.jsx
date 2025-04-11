@@ -1,15 +1,3 @@
-/*
-  Mention breifly to be used in the PostListPage.jsx in week2 you worked with 'Ashvin' to design this component.
-
-  Mention this section is used to filter all the posts in diffrent catagory to make searching for specific content easy.
-
-  Mention breifly you used your own code 'Search.jsx' in this component.
-
-  At last explain the whole code breifly, and add some of the code(only this part: /------ ------/)
-*/
-
-
-//------------------------------------------
 import { Link, useSearchParams } from "react-router-dom";
 import Search from "./Search";
 
@@ -32,7 +20,6 @@ const SideMenu = () => {
       });
     }
   };
-//------------------------------------------
 
   return (
     <div className="px-4 h-max sticky top-8">
