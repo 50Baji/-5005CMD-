@@ -1,14 +1,3 @@
-/*
-  Used react-router-dom featers to fetch data from backend to made the search function
-  ( refference website you used as for help: https://dev.to/alais29dev/building-a-real-time-search-filter-in-react-a-step-by-step-guide-3lmm)
-
-  Used tailwind css to style the searchbar (as the code is small you can paste the whole code in report, use gpt
-    to learn a bitmore and add a brief in the report.
-
-  you have to mention the name of the scrum master who asigned you the task.  
-  )
-*/
-
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 
 const Search = () => {
@@ -28,6 +17,7 @@ const Search = () => {
   };
 
   return (
+    /* Makes it look nice and consistent */
     <div className="bg-gray-100 p-2 rounded-full flex items-center gap-2">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +30,8 @@ const Search = () => {
         <circle cx="10.5" cy="10.5" r="7.5" />
         <line x1="16.5" y1="16.5" x2="22" y2="22" />
       </svg>
+
+      /* Text stuff */
       <input
         type="text"
         placeholder="search a post..."
