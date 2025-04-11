@@ -1,18 +1,3 @@
-/*
- reference: https://mongoosejs.com/docs/5.x/docs/populate.html
- reference2: https://expressjs.com/en/guide/routing.html
-
-     code explain:  Developed API endpoints for handling post comments:
-• getPostComments: Fetches and returns comments for a given post, including user details (username, img).
-• addComment: Allows authenticated users to add comments to posts.
-• deleteComment: Enables users to delete their own comments. Admins can delete any comment.
-
-Basic idea this file of code handels comment functionalitys, only the user who made the comment, or 
-the admin(The teachers) can delete a comment. Anyone else will get denied.
-and we check all those user details here, by fetching and compairing details who is trying to delete the comment
-and the person who made the comment(saved in our database)
-*/
-
 import Comment from "../models/comment.model.js";
 import User from "../models/user.model.js";
 
