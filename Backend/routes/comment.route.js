@@ -1,11 +1,3 @@
-/*
-  Made all the routes for comments to make fetching and saving data in database
-  easy and efficiant.(routes: things we put after links- anime.com/solo-lvling , /solo-lvling is a route)
-
-  saving all information we get from a comment is hard so we split the data in 3 routes
-  and fetch/post/delete using  those 
-*/
-
 import express from "express"
 import { addComment, deleteComment, getPostComments } from "../controllers/comment.controller.js"
 
