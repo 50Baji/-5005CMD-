@@ -19,7 +19,6 @@ Welcome to our online blog dedicated to raising awareness about **Indonesian end
 
 This project is built with a modern and robust technology stack:
 
-* **Next.js:** A powerful React framework for building fast and and scalable web applications.
 * **Tailwind CSS:** A utility-first CSS framework for rapid and responsive UI development.
 * **Clerk:** For seamless and secure user authentication and management.
 * **MongoDB:** A NoSQL database used for storing all our application data, including posts, comments, and user information.
